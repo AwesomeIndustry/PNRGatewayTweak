@@ -3,6 +3,8 @@
 
 This is the side of PNRGateway that runs on the iPhone and modifies the REG-REQ SMS such that it gets sent to an Android device. The Android device should be running the [PNRGatewayClient application](https://github.com/AwesomeIndustry/PNRGatewayClient) in order to receive the SMS from the Android phone and forward it to Apple, as well as to send the response back to the iPhone.
 
+**Note: If you're compiling this yourself, make sure to fill in your Android phone's number (in international format) in the constant `ANDROID_PHONE_NUMBER` at the top**
+
 Here's a brief overview as to how the iPhone proves to Apple that it owns its phone number (without this tweak installed or any weird hacks). (PNR stands for Phone Number Registration, and most methods that have to do with iMessage registration have "PNR" in the signature somewhere) This tweak was designed on an iPhone 5S (GSM) with Checkra1n and iOS 12.5.6.
 
 ## The vanilla registration process
