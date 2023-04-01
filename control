@@ -1,0 +1,9 @@
+Package: com.yourcompany.pnrgateway
+Name: PNRGateway
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: SDC
+Author: SDC
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.muirey03.libmryipc
