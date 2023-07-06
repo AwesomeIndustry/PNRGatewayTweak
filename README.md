@@ -1,6 +1,10 @@
 # PNRGatewayTweak
  The component of PNRGateway that runs on the iPhone as a Cydia tweak
 
+### Note: I've put together a new version of PNRGateway that doesn't require a SIM card! Check it out at [SIMLessPNRGateway](https://github.com/AwesomeIndustry/SIMLessPNRGateway)
+
+
+
 This is the side of PNRGateway that runs on the iPhone and modifies the REG-REQ SMS such that it gets sent to an Android device. The Android device should be running the [PNRGatewayClient application](https://github.com/AwesomeIndustry/PNRGatewayClient) in order to receive the SMS from the Android phone and forward it to Apple, as well as to send the response back to the iPhone.
 
 **Note: If you're compiling this yourself, make sure to fill in your Android phone's number (in international format) in the constant `ANDROID_PHONE_NUMBER` at the top**
