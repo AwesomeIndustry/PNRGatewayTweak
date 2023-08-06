@@ -11,6 +11,10 @@ This is the side of PNRGateway that runs on the iPhone and modifies the REG-REQ 
 
 Here's a brief overview as to how the iPhone proves to Apple that it owns its phone number (without this tweak installed or any weird hacks). (PNR stands for Phone Number Registration, and most methods that have to do with iMessage registration have "PNR" in the signature somewhere) This tweak was designed on an iPhone 5S (GSM) with Checkra1n and iOS 12.5.6.
 
+## Build instructions
+
+The instructions for building PNRGatewayTweak are the same as SIMLessPNRGateway, so follow the [build instructions](https://github.com/AwesomeIndustry/SIMLessPNRGateway/blob/main/README.md) from over there.
+
 ## The vanilla registration process
 
 1. The iPhone sends an HTTP request to identity.ess.apple.com, which is called the preflight request. I don't know very much about it, but the request contains the phone's IMSI and PLMN, which Apple uses to return the list of validation *mechanisms*
